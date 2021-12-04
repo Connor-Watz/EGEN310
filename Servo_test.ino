@@ -98,18 +98,18 @@ void moveBackward() {
 
 void turnRight() {
   Serial.println("Turn Right Slowly");
-  servo0.write(95);
-  servo1.write(95);
-  servo2.write(95);
-  servo3.write(95);
+  servo0.write(84);
+  servo1.write(96);
+  servo2.write(84);
+  servo3.write(96);
   state = 0;
 }
 
 void turnLeft() {
   Serial.println("Turn Left Slowly");
-  servo0.write(90);
-  servo1.write(90);
-  servo2.write(90);
-  servo3.write(90);
+  servo0.write(96);
+  servo1.write(84);
+  servo2.write(96);
+  servo3.write(84);
   state = 0;
 }
