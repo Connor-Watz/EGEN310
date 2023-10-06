@@ -1,5 +1,7 @@
 #include <Servo.h>
 #include <SoftwareSerial.h>
+#include <string.h>
+
 
 SoftwareSerial MyLED(2, 3); // RX | TX for HC-05 Controller
 
